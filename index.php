@@ -38,4 +38,5 @@ echo implode(', ', $trie); // attendu : 1, 3, 4, 5, 8
  */
 $tab = [5, 3, 8, 1, 4];
 $trie = triInsertion2($tab);
+
 echo implode(', ', $trie); // attendu : 1, 3, 4, 5, 8
